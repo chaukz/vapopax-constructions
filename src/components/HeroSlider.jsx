@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import houseSample from "../assets/HouseSample.jpg";
 
 export default function HeroSlider() {
   return (
     // relative = so we can position children on top of the background
     <section className="relative w-full h-screen">
-
+src={houseSample}
       {/* BACKGROUND IMAGE */}
       <img
         src="/src/assets/HouseSample.jpg"
